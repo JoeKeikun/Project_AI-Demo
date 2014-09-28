@@ -1,0 +1,22 @@
+/*------- 1.1.泡泡区 ------*/
+.bubblewrapper{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+
+	-webkit-transform-style: preserve-3d;
+	-webkit-perspective-origin: 0 100%;
+}
+
+.listen .bubblewrapper, .think .bubblewrapper{
+	display: none;
+}
+
+/*------- 1.1.1泡泡 ------*/
+.bubble{
+	border-radius: 50%;
+	position: absolute;
+
+	background-color: rgba(255, 255, 255, 0.28);
+}

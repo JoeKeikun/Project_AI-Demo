@@ -1,0 +1,40 @@
+/*------- 1.2.声波区 ------*/
+.wavewrapper{
+	width: 100%;
+	height: 155px;
+	overflow: hidden;
+	position: relative;
+	top: 220px;
+}
+
+.wait .wavewrapper{
+	display: none;
+}
+
+/*------- 1.2.1声波点区域 ------*/
+.pointswrapper{
+	width: 100%;
+	height: 125px;
+
+	position: relative;
+	overflow: hidden;
+}
+.wavepoint{
+	background-color: white;
+	width: 5px;
+	position: absolute;
+}
+
+/*------- 1.2.2提示 ------*/
+.prompt{
+	position: absolute;
+	bottom: 0;
+
+	color: white;
+	text-align: center;
+	width: 100%;
+
+	font-size: 20px;
+	line-height: 30px;
+	height: 30px;
+}

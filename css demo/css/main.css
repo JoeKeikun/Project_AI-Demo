@@ -1,0 +1,18 @@
+body { 
+    margin: 0;
+    padding:0;
+}
+
+/*------- 1.展示区 ------*/
+.viewport{
+    width: 375px;
+    height: 600px;
+    background-color: gray;
+
+    margin: 20px auto;
+}
+
+/*------- 2.按钮区 ------*/
+.controlpanel{
+	text-align: center;
+}
